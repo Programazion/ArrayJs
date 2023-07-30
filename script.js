@@ -29,7 +29,15 @@ console.log('Loading Javascript');
 /*  */
 /*  */
 function object(){
-    console.log(datos.nombre,datos.Apellido);
+    datos ={
+        id: 12,
+        nombre:"Daniel",
+        Apellido:"Sanchez",
+        ciudad:"Cali",
+        carro:"peugeout"
+        
+    }
+    alert(datos.nombre + " " + datos.Apellido);
     a=datos.ciudad;
     console.log(a);
 
